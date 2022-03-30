@@ -147,6 +147,39 @@ body {
   color: #fff;
 }
 
+/* Call to action (CTA) */
+
+.cta-title {
+  position: relative;
+  padding: 0 30px 0 30px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: var(--main-darker);
+  text-align: center;
+  margin: 50px 0 30px 0;
+  line-height: 1;
+}
+.cta-info {
+  font-size: 20px;
+  color: #7d8089;
+  text-align: center;
+}
+.cta-trial-button-container {
+  padding: 20px;
+  text-align: center;
+}
+.cta-trial-button {
+  color: var(--color-blue);
+  border-radius: 8px;
+  background: none;
+  border: var(--color-blue) 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+.cta-outro {
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar {
     justify-content: space-between;
