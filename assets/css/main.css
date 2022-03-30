@@ -1,0 +1,24 @@
+/* Fonts */
+@font-face {
+  font-family: 'circular';
+  src: url('../fonts/circular-black.ttf') format('ttf'), url('../fonts/circular-black.woff') format('woff');
+}
+
+/* Variables */
+:root {
+  --text-xlarge: 40px;
+  --text-large: 34px;
+  --text-medium: 24px;
+  --text-small: 16px;
+  --color-darker: '#OA1B2B';
+  --color-dark: '#09243C';
+  --color-blue: '#0069D9';
+  --color-purple: '#C7ABF8';
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'circular';
+}
