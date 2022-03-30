@@ -1,19 +1,19 @@
 /* Fonts */
 @font-face {
   font-family: 'circular';
-  src: url('../fonts/circular-black.ttf') format('ttf'), url('../fonts/circular-black.woff') format('woff');
+  src: url('../fonts/circular-medium.ttf') format('ttf'), url('../fonts/circular-medium.woff') format('woff');
 }
 
 /* Variables */
 :root {
+  --main-darker: rgb(10, 27, 43);
+  --color-dark: rgb(9, 36, 60);
+  --color-blue: rgb(0, 105, 217);
+  --color-purple: rgb(199, 171, 248);
   --text-xlarge: 40px;
   --text-large: 34px;
   --text-medium: 24px;
   --text-small: 16px;
-  --color-darker: '#OA1B2B';
-  --color-dark: '#09243C';
-  --color-blue: '#0069D9';
-  --color-purple: '#C7ABF8';
 }
 
 * {
@@ -21,4 +21,46 @@
   padding: 0;
   margin: 0;
   font-family: 'circular';
+}
+/* Reusables */
+.white {
+  color: #fff;
+}
+
+/* Buttons */
+.close-button {
+  background: none;
+  border: none;
+}
+/* Announcement */
+
+.announcement-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--main-darker);
+  height: 52px;
+  width: 100%;
+}
+
+.announcement-icon {
+  background-color: var(--color-purple);
+  width: 96px;
+  height: 25px;
+  border-radius: 100px;
+  margin: 12.5px;
+}
+.announcement-icon-text {
+  position: relative;
+  left: 60%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+}
+.announcement-intro-text {
+  font-size: 10px;
+  width: 229px;
+  margin: 12.5px 0 0 0px;
+  font-weight: 100;
 }
