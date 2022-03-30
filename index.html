@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
     <title>Techsembly</title>
+    <script src="https://kit.fontawesome.com/230733400f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,9 +23,42 @@
             costs/Unexpected fees
         </section>
         <button id="close" class="close-button white">X</button>
-
-
     </header>
+
+    <nav class="navbar" id="mobile-navbar">
+        <img src="./assets/images/logo.png" id="logo" alt="Logo image">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Product <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Solutions <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Company <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+            </li>
+        </ul>
+        <aside class="navigation-pane" id="togglePane">
+            <div class="language">
+                <a href="#" class="nav-link">EN <i class="fa-solid fa-angle-down"></i></a>
+            </div>
+            <a href="#" class="nav-link" style="margin-right: 12.5px;">Log in</a>
+
+            <button class="get-started-button">Get started</button>
+        </aside>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
 </body>
+
+<script type="module" src="./assets/scripts/main.js"></script>
 
 </html>
