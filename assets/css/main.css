@@ -135,6 +135,67 @@ body {
   color: black;
   margin: 5px;
 }
+.filled-bg-button {
+  background-color: var(--color-blue);
+  height: 34px;
+  width: 114px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.filled-bg-button:hover {
+  background: none;
+  color: var(--color-blue);
+  border: 1px var(--color-blue) solid;
+}
+.clear-bg-button {
+  color: var(--color-blue);
+  border-radius: 8px;
+  background: none;
+  border: var(--color-blue) 1px solid;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card-button {
+  width: 212px;
+  height: 48px;
+  background-color: var(--color-blue);
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 20px;
+  border: none;
+}
+.card-button:hover {
+  background: none;
+  color: var(--color-blue);
+  border: 1px var(--color-blue) solid;
+}
+.clear-bg-button:hover {
+  background-color: var(--color-blue);
+  color: #fff;
+}
+.footer-blue-btn {
+  background-color: var(--color-blue);
+  height: 34px;
+  width: 175px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 7.5px;
+}
+.footer-white-btn {
+  background-color: #fff;
+  height: 34px;
+  width: 160px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: black;
+  margin: 5px;
+}
 /* Announcement */
 
 /* */
@@ -703,6 +764,7 @@ footer {
   color: #fff;
 }
 @media only screen and (max-width: 768px) {
+
   .announcement-container {
     padding: 0;
     position: relative;
@@ -754,6 +816,23 @@ footer {
     font-size: 20px;
     width: 70%;
   }
+=======
+  .footer-introduction-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: rgba(255, 255, 255, 0.3) 1px solid;
+    height: 600px;
+  }
+  .footer-introduction-aside {
+    padding-top: 0;
+  }
+  .footer-introduction-aside > header {
+    padding-left: 0px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    width: 70%;
+  }
+
 
   .footer-introduction-container > img {
     padding: 30px;
@@ -842,6 +921,7 @@ footer {
     width: 100%;
     height: auto;
     margin-top: 200px;
+
   }
   .plugin-text {
     padding: 40px;
@@ -849,6 +929,15 @@ footer {
     width: 100%;
     font-size: 32px;
   }
+
+  }
+  .plugin-text {
+    padding: 40px;
+    height: 400px;
+    width: 100%;
+    font-size: 32px;
+  }
+
 
   .card {
     height: 1300px;
