@@ -464,7 +464,7 @@ body {
   width: 400px;
 }
 #customers th:nth-child(2) {
-  background: url('../images/logo-white.png');
+  background: url('images/logo-white.png');
   background-repeat: no-repeat;
   background-color: var(--color-dark);
 }
