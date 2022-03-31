@@ -310,8 +310,117 @@ body {
   width: 700px;
   font-size: 32px;
 }
+/* Features section */
+.features-container {
+  background-color: var(--main-darker);
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 5px;
+}
+#customers th {
+  border-bottom: 1px solid rgba(226, 226, 226, 0.2);
+}
+#customers td {
+  border-bottom: 1px solid rgba(226, 226, 226, 0.2);
+  padding: 8px;
+  color: white;
+  padding: 20px;
+}
+#customers td:nth-child(2) {
+  background-color: var(--color-dark);
+}
+#customers th:nth-child(1) {
+  width: 400px;
+}
+#customers th:nth-child(2) {
+  background: url('../images/logo-white.png');
+  background-repeat: no-repeat;
+  background-color: var(--color-dark);
+}
+#customers th:nth-child(3) {
+  background: url('../images/bigcommerce.png');
+  background-repeat: no-repeat;
+}
+#customers th:nth-child(4) {
+  background: url('../images/shopify.png');
+  background-repeat: no-repeat;
+}
+#customers th:nth-child(5) {
+  background: url('../images/Magento.png');
+  background-repeat: no-repeat;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+.no-devs-needed {
+  background-color: var(--color-blue);
+  position: absolute;
+  width: 137px;
+  height: 137px;
+  border-radius: 50%;
+  right: 15%;
+}
+.no-devs-needed-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(20deg);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Specifications section */
+.specifications-header > header {
+  font-size: 60px;
+  padding: 30px 0 0 30px;
+}
+.specifications-header > h3 {
+  font-size: 18px;
+  color: #49545e;
+  padding: 30px;
+}
+.specifications-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f2f0ed;
+}
+.box {
+  position: relative;
+  height: 400px;
+  border: 1px solid rgba(9, 36, 60, 0.2);
+}
+.box > header {
+  padding: 50px 0 0 10px;
+  height: 100px;
+  font-size: 26px;
+  color: #0a1b2b;
+}
+.box > h3,
+.box > img,
+.box > p {
+  padding: 40px 0 0 10px;
+  color: #49545e;
+}
 
 @media only screen and (max-width: 768px) {
+  .specifications-container {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
   .grid {
     display: block;
   }
