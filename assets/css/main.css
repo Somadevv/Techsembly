@@ -415,6 +415,54 @@ body {
   color: #49545e;
 }
 
+/* Companies we work with */
+.companies-we-work-with-container {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 248, 0) 0%,
+    rgba(248, 248, 248, 0.869778) 24.76%,
+    #f8f8f8 68.95%,
+    rgba(248, 248, 248, 0) 100%
+  );
+  margin-bottom: 150px;
+}
+
+.companies-title {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.companies-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.companies-we-work-with-container header {
+  text-align: center;
+  height: 100px;
+  padding-top: 80px;
+}
+.company-item img {
+  width: fit-content;
+  height: auto;
+}
+.company-item {
+  position: relative;
+  width: 180px;
+  height: 112px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  text-align: center;
+  padding-top: 25px;
+}
+.company-item:nth-child(5) {
+  margin-bottom: 40px;
+}
+.companies-button-container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .specifications-container {
     position: relative;
