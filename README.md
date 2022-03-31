@@ -1,3 +1,3 @@
 # Techsembly
 
-This project was created as a skills test interview.
+This project was created for a skills test interview.
