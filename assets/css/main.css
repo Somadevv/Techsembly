@@ -294,7 +294,39 @@ body {
 .learn-more {
   color: var(--color-blue);
 }
+
+/* Plugin example section */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mobile-example-image {
+  width: 660px;
+  height: 792px;
+}
+.plugin-text {
+  padding: 40px;
+  height: 400px;
+  width: 700px;
+  font-size: 32px;
+}
+
 @media only screen and (max-width: 768px) {
+  .grid {
+    display: block;
+  }
+  .mobile-example-image {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+  }
+  .plugin-text {
+    padding: 40px;
+    height: 400px;
+    width: 100%;
+    font-size: 32px;
+  }
+
   .card {
     height: 1300px;
   }
