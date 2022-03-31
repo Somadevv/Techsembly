@@ -578,6 +578,10 @@ body {
   border-radius: 20px;
 }
 @media only screen and (max-width: 768px) {
+  .companies-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
   .specifications-container {
     position: relative;
     display: block;
