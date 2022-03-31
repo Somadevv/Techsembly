@@ -463,6 +463,29 @@ body {
   text-align: center;
 }
 
+/* New store showcase section */
+.new-store-description {
+  margin-top: 100px;
+}
+.new-store-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.new-store-image {
+  width: 75%;
+  height: auto;
+  margin-left: 40px;
+}
+.new-store-description > header {
+  font-size: 44px;
+  height: 120px;
+}
+.new-store-description > p {
+  font-size: 22px;
+  color: #49545e;
+  height: 175px;
+}
+
 @media only screen and (max-width: 768px) {
   .specifications-container {
     position: relative;
