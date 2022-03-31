@@ -26,6 +26,16 @@ body {
   background-color: #e5e5e5;
 }
 /* Reusables */
+.space-between {
+  justify-content: space-between;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.right {
+  float: right;
+}
 .white {
   color: #fff;
 }
@@ -33,7 +43,15 @@ body {
 .disabled {
   display: none;
 }
-
+.green-tick-circle {
+  width: 15px;
+  height: 15px;
+  background-color: #20c08d;
+  border-radius: 50%;
+}
+.verfified-tick {
+  padding-bottom: 3px;
+}
 /* Buttons */
 .close-button {
   background: none;
@@ -49,7 +67,9 @@ body {
   height: 52px;
   width: 100%;
 }
-
+.benefit-text-item {
+  color: #7d8089;
+}
 .announcement-icon {
   background-color: var(--color-purple);
   width: 96px;
@@ -149,6 +169,10 @@ body {
 
 /* Call to action (CTA) */
 
+.cta-container {
+  height: 350px;
+}
+
 .cta-title {
   position: relative;
   padding: 0 30px 0 30px;
@@ -173,14 +197,111 @@ body {
   border-radius: 8px;
   background: none;
   border: var(--color-blue) 1px solid;
-  padding: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .cta-outro {
   text-align: center;
 }
 
+/* Cards */
+.card-container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  margin: 10px;
+  max-width: 432px;
+  height: 1300px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-top: var(--color-blue) 4px solid;
+}
+.card-title {
+  height: 90px;
+  padding: 40px;
+}
+.card-introduction {
+  margin: 0 auto;
+  width: 70%;
+  height: 110px;
+}
+.card-pricing {
+  height: 90px;
+}
+.card-text-highlight {
+  color: #7d8089;
+  font-size: 20px;
+}
+.card-button {
+  width: 212px;
+  height: 48px;
+  background-color: var(--color-blue);
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 20px;
+  border: none;
+}
+.card-additional-info-container {
+  color: #49545e;
+  height: 100px;
+}
+.card-additional-info-highlighted {
+  margin-top: 3px;
+  color: #7d8089;
+}
+.card-transactionfee-container {
+  height: 75px;
+  border-top: 1px solid #e6e6e8;
+  border-bottom: 1px solid #e6e6e8;
+  margin: 0 40px 0 40px;
+  padding: 25px;
+}
+
+.storefront-vendors-container {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
+}
+.storefront-list-item {
+  color: #7d8089;
+}
+.storefront-new-circle {
+  background-color: var(--color-purple);
+  width: 60px;
+  height: 20px;
+  border-radius: 60px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-top: 4px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.storefront-vendors-header {
+  height: 40px;
+  margin-top: 30px;
+}
+.storefront-description {
+  color: #7d8089;
+  height: 75px;
+  border-bottom: solid rgba(65, 69, 71, 0.2) 1px;
+}
+.learn-more {
+  color: var(--color-blue);
+}
 @media only screen and (max-width: 768px) {
+  .card {
+    height: 1300px;
+  }
+  .card-container {
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
   .navbar {
     justify-content: space-between;
   }
