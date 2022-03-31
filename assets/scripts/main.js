@@ -1,7 +1,14 @@
 const elements = {
   mobileQuery: window.matchMedia('(max-width: 768px)'),
   togglePane: document.getElementById('togglePane'),
+  close: document.getElementById('close'),
+  announcement: document.getElementById('announcement'),
 }
+// Close announcement notification
+
+elements.close.addEventListener('click', () => {
+  elements.announcement.style.display = 'none'
+})
 
 const checkQuery = (query) => {
   query.matches ? elements.togglePane.classList.add('disabled') : elements.togglePane.classList.remove('disabled')
