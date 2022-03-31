@@ -486,6 +486,71 @@ body {
   height: 175px;
 }
 
+/* FAQs */
+.faq-container {
+  margin: 20px;
+}
+.faq-container > header {
+  height: 125px;
+  padding: 20px;
+  font-size: 60px;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: 1px solid #e6e6e8;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 10px;
+
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  height: 40px;
+}
+.panel > p {
+  font-size: 16px;
+  color: #49545e;
+}
+/* Apply for grant */
+.apply-for-grant-container {
+  margin: 30px auto;
+  width: 70%;
+  border-radius: 20px;
+  background-color: #e5c4a3;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+.apply-title {
+  padding: 50px 0 30px 50px;
+  width: 100%;
+  font-size: 28px;
+}
+.apply-description {
+  padding: 0px 0 0 50px;
+  width: 100%;
+  font-size: 18px;
+  color: #0a1b2b;
+}
+.apply-for-grant-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .specifications-container {
     position: relative;
