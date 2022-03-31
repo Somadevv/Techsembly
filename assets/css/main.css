@@ -743,13 +743,16 @@ footer {
     display: flex;
     flex-direction: row;
     border-bottom: rgba(255, 255, 255, 0.3) 1px solid;
-    height: 600px;
+    height: 650px;
   }
   .footer-introduction-aside {
     padding-top: 0;
   }
+  .footer-introduction-aside > p {
+    padding-left: 15px;
+  }
   .footer-introduction-aside > header {
-    padding-left: 0px;
+    padding-left: 15px;
     margin-bottom: 25px;
     font-size: 20px;
     width: 70%;
