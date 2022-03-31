@@ -284,7 +284,7 @@ body {
 .card {
   margin: 10px;
   max-width: 432px;
-  height: 1300px;
+  height: auto;
   margin-bottom: 50px;
   background-color: #ffffff;
   border-top: var(--color-blue) 4px solid;
