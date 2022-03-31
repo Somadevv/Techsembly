@@ -578,7 +578,7 @@ body {
   border-radius: 20px;
 }
 @media only screen and (max-width: 768px) {
-   .companies-container {
+  .companies-container {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
   }
@@ -613,7 +613,27 @@ body {
     margin-bottom: 75px;
     margin-top: 75px;
   }
-
+  .new-store-container {
+    display: block;
+  }
+  .new-store-image {
+    width: 100%;
+    height: 350px;
+    margin: 0 10px 0 10px;
+  }
+  .new-store-description header {
+    padding: 15px;
+    font-size: 44px;
+    height: 100px;
+  }
+  .new-store-description p {
+    padding: 15px;
+    height: 250px;
+  }
+  .new-store-description button {
+    margin: 15px;
+    margin-bottom: 150px;
+  }
   .apply-for-grant-image {
     width: 100%;
     height: auto;
