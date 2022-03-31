@@ -53,6 +53,26 @@ body {
   padding-bottom: 3px;
 }
 /* Buttons */
+.footer-blue-btn {
+  background-color: var(--color-blue);
+  height: 34px;
+  width: 175px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 7.5px;
+}
+.footer-white-btn {
+  background-color: #fff;
+  height: 34px;
+  width: 160px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: black;
+  margin: 5px;
+}
 .close-button {
   background: none;
   border: none;
