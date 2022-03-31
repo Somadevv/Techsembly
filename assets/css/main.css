@@ -597,7 +597,144 @@ body {
   height: 100%;
   border-radius: 20px;
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--main-darker);
+  color: #fff;
+  width: 100vw;
+}
+
+.footer-introduction-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: rgba(255, 255, 255, 0.3) 1px solid;
+  height: 600px;
+}
+.footer-main-container {
+  padding: 5px;
+  padding: 40px 0 0 20px;
+}
+.footer-introduction-container > img {
+  padding: 30px;
+  width: 570px;
+  height: 480px;
+}
+
+.footer-introduction-container > header {
+  padding: 100px 0 0 100px;
+  font-size: 46px;
+  width: 70%;
+}
+.footer-introduction-aside {
+  padding-top: 75px;
+}
+.footer-introduction-aside > header {
+  padding-left: 0px;
+  margin-bottom: 25px;
+  font-size: 46px;
+  width: 70%;
+}
+.footer-introduction-aside > p {
+  padding-left: 0px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  width: 70%;
+  color: #b5bbbf;
+}
+
+.footer-main-container > p {
+  opacity: 0.5;
+}
+.first {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;
+}
+.second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #b5bbbf;
+  margin-bottom: 20px;
+}
+.third {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #b5bbbf;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  color: #b5bbbf;
+  height: 75px;
+}
+.socials > i {
+  margin: 7.5px;
+}
+.footer-logo {
+  height: 60px;
+}
+.footer-aftertext {
+  color: #b5bbbf;
+}
+.footer-certification-logo {
+  height: 60px;
+  margin: 20px 0 20px 0;
+}
+.rights {
+  padding: 20px;
+  color: #fff;
+}
 @media only screen and (max-width: 768px) {
+  .footer-introduction-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: rgba(255, 255, 255, 0.3) 1px solid;
+    height: 650px;
+  }
+  .footer-introduction-aside {
+    padding-top: 0;
+  }
+  .footer-introduction-aside > header {
+    padding-left: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    width: 70%;
+  }
+  .footer-introduction-aside > p {
+    padding-left: 10px;
+  }
+
+  .footer-introduction-container > img {
+    padding: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .footer-introduction-container > header {
+    margin-bottom: 25px;
+    font-size: 24px;
+    width: 70%;
+  }
+
+  .footer-blue-btn {
+    width: 175px;
+    height: 34px;
+    margin: 7.5px;
+  }
+  .footer-white-btn {
+    height: 34px;
+    width: 160px;
+    margin: 5px;
+  }
+  .footer-introduction-container > header:nth-child(0) {
+    margin-bottom: 25px;
+    font-size: 26px;
+    width: 70%;
+  }
+  .footer-introduction-container {
+    display: block;
+  }
   .companies-container {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
