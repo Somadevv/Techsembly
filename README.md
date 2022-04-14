@@ -1,3 +1,3 @@
-# Techsembly
+## *This project was created for an interview skills test for [Insitesdigital](https://insitesdigital.com/)*
 
-This project was created for a skills test interview.
+This project includes the use of vanilla JavaScript, HTML & CSS.
